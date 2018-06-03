@@ -1,0 +1,25 @@
+<configuration xmlns="http://logging.apache.org/log4php/">
+	<appender name="AccessAppender" class="LoggerAppenderFile">
+		<layout class="LoggerLayoutPattern">
+			<param name="conversionPattern" value="%date#%message%newline" />
+		</layout>
+		<param name="file" value="/var/log/stockexchange/access.log" />
+	</appender>
+	
+	<logger name="AccessLogger">
+		<level value="TRACE"/>
+		<appender_ref ref="AccessAppender" />
+	</logger>
+	
+	<appender name="MessageAppender" class="LoggerAppenderFile">
+		<layout class="LoggerLayoutPattern">
+			<param name="conversionPattern" value="%date#%message%newline" />
+		</layout>
+		<param name="file" value="/var/log/stockexchange/messages.log" />
+	</appender>
+	
+	<logger name="MessageLogger">
+		<level value="TRACE"/>
+		<appender_ref ref="MessageAppender" />
+		</logger>
+</configuration>

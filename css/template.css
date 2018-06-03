@@ -1,0 +1,190 @@
+@charset "utf-8";
+.body {
+	background-color: #66F;
+}
+#header{
+	clear: both;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100px;
+	background-image: url(../images/hospital.png);
+	
+	
+}
+#home{
+	clear: both;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	margin-bottom: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+#login{
+	clear: both;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	margin-bottom: 30px;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #000;
+	margin-top: 5px;
+}
+#log1{
+	width: 400px;
+	float:left;
+	height: auto;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+#log2{
+	width: 400px;
+	float:right;
+	height: auto;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	text-align: right;
+}
+
+#container{
+	clear: both;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#pat{
+	clear: both;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#reg{
+	clear: both;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #DA6B21;
+	text-align: center;
+	margin-top: 20px;
+	border: 1px solid #096;
+}
+.ll1{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #300;
+	float: left;
+	width: 300px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.ll11{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #300;
+	float: right;
+	width: 100px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: right;
+}
+.ll2{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #300;
+	width: 1000px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#middle{
+	clear: both;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	margin-top: 20px;
+}
+#last{
+	clear: both;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	margin-top: 50px;
+}
+.table {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #009;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+.th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+}
+.ron {
+	background-color: #BD8982;
+}
+body {
+font-family:Arial;
+}
+input {
+font-family:Arial;
+font-size:14px;
+}
+label{
+font-family:Arial;
+font-size:14px;
+color:#999999;
+}
+.tblSaveForm {
+border-top:2px #999999 solid;
+background-color: #f8f8f8;
+}
+.tableheader {
+	background-color: #1F88B8;
+	color: #FFF;
+	font-weight: bold;
+}
+.btnSubmit {
+	background-color:#1F88B8;
+	padding:5px;
+	border-radius:4px;
+	color:white;
+	border-top-color: #006;
+	border-right-color: #006;
+	border-bottom-color: #006;
+	border-left-color: #006;
+}
+.message {
+color: #FF0000;
+text-align: center;
+width: 100%;
+}
+.txtField {
+	padding: 5px;
+	border:1px solid #006;
+	border-radius:4px;
+}
+.required {
+color: #FF0000;
+font-size:11px;
+font-weight:italic;
+padding-left:10px;
+}
